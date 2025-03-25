@@ -9,6 +9,7 @@ body {
 	margin: auto;
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	font-size: small;
+	padding: 40x;
 }
 
 .postcard-header {
@@ -18,11 +19,13 @@ body {
 .postcard-header img {
 	width: 50px;
 	height: 50px;
+	padding-top: 10px;
 }
 
 .postcard-header h1 {
-	width: 340px;
+	width: 330px;
 	margin: none;
+	padding-left: 10px;
 }
 
 .postcard-body {
@@ -40,7 +43,7 @@ body {
 
 input {
 	border: none;
-	border-bottom: grey;
+	border-bottom: 1px solid grey;
 }
 
 .postcard-footer {
